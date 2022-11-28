@@ -7,7 +7,7 @@ version: 6db54a258cb46de23163b5415f2e667e
 # The work queue that will handle this deployment's runs
 work_queue_name: default
 tags: []
-parameters: {"name":}
+parameters: {}
 schedule: null
 infra_overrides: {}
 
