@@ -1,5 +1,4 @@
-from prefect import flow, task
-from prefect import get_run_logger
+from prefect import flow, task, get_run_logger
 
 @task(name="Reverse")
 def reverse_string(name: str) -> str:
